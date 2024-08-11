@@ -1,0 +1,178 @@
+@font-face {
+    font-family: "certificate";
+    src: url(./Certificate/Certificate.ttf);
+}
+
+@font-face {
+    font-family: "bold-font";
+    src: url(./TT\ Norms\ Pro\ Serif\ Trial\ Bold.ttf);
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.Container {
+
+    width: 900px;
+    height: 700px;
+    border: 8px solid #444444c4;
+    margin: 0 auto;
+    margin-top: 50px;
+    text-align: center;
+
+}
+
+.main {
+    position: relative;
+    width: 820px;
+    height: 630px;
+    border: 40px solid #030169dc;
+    margin: 0 auto;
+    margin-top: 25px;
+}
+
+.main::before {
+    content: "";
+    position: absolute;
+    width: 740px;
+    height: 551px;
+    background-image: url(./image/watermark.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* top: 0; */
+    left: 0px;
+    opacity: 0.1;
+    z-index: 8;
+}
+
+.heading-first {
+    font-family: "certificate";
+    font-weight: 700;
+    font-size: 44px;
+    margin-top: 10px;
+    /* background-color: aqua; */
+    /* margin: 500px 0; */
+}
+
+.para-first {
+    margin-bottom: 20px;
+    /* letter-spacing: 1px; */
+    font-family: auto;
+    font-weight: 900;
+    font-size: 18px;
+}
+
+.heading-second {
+    font-size: 18px;
+    float: right;
+    font-family: fantasy;
+    font-style: italic;
+    /* margin-left: -18px; */
+    /* margin: 0px 40px; */
+    /* margin-bottom: 20px; */
+
+}
+
+.side {
+    font-size: 10px;
+    /* background-color: peachpuff; */
+    margin-left: 18px;
+    font-weight: 100;
+    font-style: normal;
+    font-family: auto;
+    position: relative;
+    bottom: 10px;
+    right: 8px;
+    text-decoration: underline;
+    text-underline-offset: 0.5rem;
+}
+
+.heading-three {
+
+    font-family: "certificate";
+    font-weight: 900;
+    font-size: 38px;
+    /* text-align: center; */
+    position: relative;
+    /* background-color: blue; */
+    left: 83px;
+    top: 14px;
+}
+
+.heading-four {
+    font-size: 26px;
+    font-weight: 600;
+    font-family: cursive;
+    /* font-family: "bold-font"; */
+    margin-top: 17px;
+    color: #00008f;
+}
+
+.heading-five {
+    font-size: 34px;
+    font-family: 'certificate';
+    font-weight: 900;
+    margin-top: 8px;
+}
+
+.heading-six {
+    font-family: "bold-font";
+    font-size: 28px;
+    /* font-weight: 900; */
+    margin-top: 15px;
+    color: #00008f;
+}
+
+.heading-seven {
+    font-size: 34px;
+    font-family: "certificate";
+    font-weight: 900;
+    margin-top: 10px;
+}
+
+.month {
+    font-size: 30px;
+    font-family: cursive;
+    color: #00008f;
+    text-decoration: underline;
+    text-underline-offset: 0.5rem;
+    margin-right: 20px;
+}
+
+
+.heading-eight {
+    font-family: "certificate";
+    font-size: 34px;
+    font-weight: 900;
+    margin-top: 22px;
+}
+
+
+.Date-first, .Date-end {
+    font-family: cursive;
+    font-size: 16px;
+    color: #00008f;
+    margin: 0 10px;
+    text-decoration: underline;
+    text-underline-offset: 0.5rem;
+}
+
+.image {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.two {
+    margin-top: 30px;
+}
